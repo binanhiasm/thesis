@@ -5,13 +5,13 @@ layers {
   top: "data"
   top: "label"
   data_param {
-    source: "/home/dom/Downloads/AdienceFaces/lmdb/Test_fold_is_4/gender_train_lmdb"
+    source: "/home/quangdat1511/Downloads/AdienceFaces/lmdb/Test_fold_is_4/gender_train_lmdb"
     backend: LMDB
     batch_size: 50
   }
   transform_param {
     crop_size: 227
-    mean_file: "/home/dom/Downloads/AdienceFaces/mean_image/Test_folder_is_4/mean.binaryproto"
+    mean_file: "/home/quangdat1511/Downloads/AdienceFaces/mean_image/Test_folder_is_4/mean.binaryproto"
     mirror: true
   }
   include: { phase: TRAIN }
@@ -22,13 +22,13 @@ layers {
   top: "data"
   top: "label"
   data_param {
-    source:  "/home/dom/Downloads/AdienceFaces/lmdb/Test_fold_is_4/gender_val_lmdb"
+    source:  "/home/quangdat1511/Downloads/AdienceFaces/lmdb/Test_fold_is_4/gender_val_lmdb"
     backend: LMDB
     batch_size: 50
   }
   transform_param {
     crop_size: 227
-    mean_file: "/home/dom/Downloads/AdienceFaces/mean_image/Test_folder_is_4/mean.binaryproto"
+    mean_file: "/home/quangdat1511/Downloads/AdienceFaces/mean_image/Test_folder_is_4/mean.binaryproto"
     mirror: false
   }
   include: { phase: TEST }
