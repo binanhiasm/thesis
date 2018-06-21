@@ -1,8 +1,8 @@
 import os
 import random
-DATA_DIR='/home/dom/Downloads/AdienceFaces/DATA/aligned'
-original_folds_dir='/home/dom/Downloads/AdienceFaces/folds/original_txt_files'
-out_files_dir='/home/dom/Downloads/AdienceFaces/folds/train_val_txt_files_per_fold'
+DATA_DIR='/home/quangdat1511/Downloads/AdienceFaces/DATA/aligned'
+original_folds_dir='/home/quangdat1511/Downloads/AdienceFaces/folds/original_txt_files'
+out_files_dir='/home/quangdat1511/Downloads/AdienceFaces/folds/train_val_txt_files_per_fold'
 
 age_list=['(0, 2)','(4, 6)','(8, 12)','(15, 20)','(25, 32)','(38, 43)','(48, 53)','(60, 100)']
 gender_list=['m','f']
