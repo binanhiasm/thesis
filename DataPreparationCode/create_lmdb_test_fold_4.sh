@@ -1,7 +1,7 @@
-TOOLS=/home/dom/caffe/build/tools
-DATA=/home/dom/Downloads/AdienceFaces/DATA/aligned/
-DEF_FILES=/home/dom/Downloads/AdienceFaces/folds/train_val_txt_files_per_fold/test_fold_is_4
-OUT=//home/dom/Downloads/AdienceFaces/lmdb/Test_fold_is_4
+TOOLS=/home/quangdat1511/caffe/build/tools
+DATA=/home/quangdat1511/Downloads/AdienceFaces/DATA/aligned/
+DEF_FILES=/home/quangdat1511/Downloads/AdienceFaces/folds/train_val_txt_files_per_fold/test_fold_is_4
+OUT=/home/quangdat1511/Downloads/AdienceFaces/lmdb/Test_fold_is_4
 
 # Set RESIZE=true to resize the images to 256x256. Leave as false if images have
 # already been resized using another tool.
